@@ -1,0 +1,7 @@
+mysql:
+  image: mariadb
+  restart: always
+  environment:
+   - MYSQL_ROOT_PASSWORD=INSERT_PASSWORD
+  volumes:
+   - /data/mysql:/var/lib/mysql
