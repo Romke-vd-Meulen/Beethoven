@@ -1,0 +1,2 @@
+#!/bin/bash
+/etc/nginx/docker-gen -only-exposed -watch -notify "service nginx reload" /etc/nginx/docker-gen-upstream-template /etc/nginx/conf.d/docker_upstream_hosts.conf

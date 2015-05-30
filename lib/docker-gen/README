@@ -1,0 +1,3 @@
+These files are used to configure your server to automatically pick up on Docker containers launched with Beethoven.
+
+Docker-gen is a marvelous invention from jwilder which you can check out at https://github.com/jwilder/docker-gen
